@@ -7,8 +7,8 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
 SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=XAk3UAQT#aC3YkNNJhcVZauCJruOcLEg-CWHtFJdsXGRSneFish0' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94711453361' : process.env.OWNER_NUMBER,
-N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94714105363' : process.env.OWNER_NUMBER,
+N_JID: process.env.N_JID=== undefined ? '‌94714105363@s.whatsapp.net': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '*' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 ᴠᴀᴊɪʀᴀ ᴍᴅ ʙʏ ᴛᴄ ᴛᴇᴀᴍ 👨‍💻': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
